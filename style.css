@@ -267,6 +267,7 @@ section {
   position: relative;
 }
 
+
 .about-containers {
   gap: 1rem;
   margin-bottom: 1rem;
@@ -276,6 +277,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .about-containers,
@@ -285,6 +287,10 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  max-width: 100%; /* Ensures image is not bigger than its container */
+  height: auto; /* Maintain aspect ratio */
+
+
 }
 
 .arrow {
@@ -301,6 +307,12 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+  text-align: center; /* Center the text */
 }
 
 .section-container {
@@ -313,6 +325,10 @@ section {
   width: 400px;
   
   margin-right: 90px;
+  size: 4px;;
+  flex: 1;
+  text-align: center;
+  margin-left: 20px;  /* Slight push to the right */
 }
 
 /* EXPERIENCE SECTION */
@@ -383,7 +399,7 @@ article .icon {
 /*ASSIGNMENTS */ 
 #assignments {
   position: relative;
-  margin-top: 900px; 
+  margin-top: 90px; 
 }
 
 .color-container {
