@@ -283,13 +283,15 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 1rem;
   max-width: 100%; /* Ensures image is not bigger than its container */
   height: auto; /* Maintain aspect ratio */
-
+  border-left: 10px;
+  
 
 }
 
@@ -324,7 +326,7 @@ section {
   height: 400px;
   width: 400px;
   
-  margin-right: 90px;
+  margin-right: 10px;
   size: 4px;;
   flex: 1;
   text-align: center;
