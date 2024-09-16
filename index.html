@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio - Home</title>
+  <title>Nupur Divekar - About Me</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
 </head>
@@ -11,14 +11,15 @@
   <nav>
     <div class="logo">Nupur Divekar</div>
     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="experience.html">Experience</a></li>
+      <li><a href="index.html">About</a></li>
+      <li><a href="work-experience.html">Experience</a></li> 
       <li><a href="projects.html">Projects</a></li>
       <li><a href="assignments.html">Assignments</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+  
+  
   <section id="profile">
     <div class="section__pic-container">
       <img src="./assets/Nups.jpeg" alt="Nupur Divekar profile picture" />
@@ -28,7 +29,7 @@
       <h1 class="title">Nupur Divekar</h1>
       <div class="btn-container"> 
         <button class="btn btn-color-2" onclick="window.open('./assets/Nupur_Divekar_Resume1.pdf')">Download CV</button>
-        <button class="btn btn-color-1" onclick="location.href='contact.html'">Contact Info</button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
       </div>
       <div id="socials-container">
         <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/'" />
@@ -36,18 +37,47 @@
       </div>
     </div>
   </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/NupsDog.jpeg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Hobbies icon" class="icon" />
+            <h3>Hobbies</h3>
+            <p>Dancing<br />Scuba Diving</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Senior at Boston University<br />Majoring in Computer Science and Biology</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>Hello! My name is Nupur Divekar. I'm from Mumbai, India and I love dogs!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Include other sections like Experience, Projects, Assignments, and Contact similarly -->
+
   <footer>
     <nav>
       <ul class="nav-links">
-       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="experience.html">Experience</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="assignments.html">Assignments</a></li>
-      <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="work-experience.html">Experience</a></li> 
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="assignments.html">Assignments</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <p>Copyright &#169; 2023 Nupur Divekar. All Rights Reserved.</p>
+    <p>Copyright © 2023 Nupur Divekar. All Rights Reserved.</p>
   </footer>
   <script src="script.js"></script>
 </body>
